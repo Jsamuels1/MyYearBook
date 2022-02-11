@@ -21,5 +21,5 @@
         android:layout_height="33dp"
         android:text="Fix Up Resume"
         tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="27dp" />
+        tools:layout_editor_absoluteY="72dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
