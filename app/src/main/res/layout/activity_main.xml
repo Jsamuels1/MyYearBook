@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="458dp"
-            android:layout_height="317dp"
+            android:layout_height="292dp"
             app:srcCompat="@drawable/image" />
 
         <ScrollView
@@ -29,16 +29,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
+                <Button
+                    android:id="@+id/btnevent"
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Press Me" />
+
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textview"
                     android:layout_width="wrap_content"
-                    android:layout_height="87dp"
-                    android:layout_marginLeft="150dp"
-                    android:layout_marginTop="375dp"
-                    android:layout_marginRight="150dp"
-                    android:background="#4CAF50"
-                    android:text="Josiah Samuels I like to code"
-                    android:textAlignment="gravity" />
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
 
             </LinearLayout>
         </ScrollView>
